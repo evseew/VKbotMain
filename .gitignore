@@ -1,0 +1,49 @@
+# Переменные окружения и ключи
+.env
+service-account-key.json
+
+# Временные файлы бота
+bot.pid
+silence_state.json
+user_threads_vk.json
+
+# Логи
+logs/
+*.log
+
+# Базы данных
+local_vector_db/
+*.sqlite3
+*.db
+
+# История чатов (может содержать персональные данные)
+history_vk/
+
+# Справочные файлы (устаревшие версии)
+reference/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+new_venv/
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
+nohup.out 
